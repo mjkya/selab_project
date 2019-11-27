@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Software Engineering Lab - Gallery</title>
+    <!--[if IE]>
+    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          type="text/css"/>
+    <link rel="stylesheet" href="../common/styles/reset-1.6.1.css" type="text/css"/>
+    <link rel="stylesheet" href="../common/styles/jquery-ui.css" type="text/css"/>
+    <link rel="stylesheet" href="../common/styles/font-awesome-4.0.3/css/font-awesome.min.css" type="text/css"/>
+    <link rel="stylesheet" href="../common/styles/common.css" type="text/css"/>
+    <link rel="shortcut icon" href="../common/images/SelabFavicon.png" type="image/png">
+    <link rel="stylesheet" href="styles/gallery.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/lightbox.css" type="text/css"/>
+
+    <script type="text/javascript" src="../common/scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../common/scripts/jquery-ui.js"></script>
+    <script type="text/javascript" src="../common/scripts/buffered-keyup.js"></script>
+    <script type="text/javascript" src="../common/scripts/common.js"></script>
+    <script type="text/javascript" src="scripts/gallery.js"></script>
+    <script type="text/javascript" src="scripts/lightbox-2.6.min.js"></script>
+
+</head>
+
+<body>
+<div class="navbar">
+    <div class="innernavbar">
+        <h1 class="webapplogo">
+            <a herf=#><img src="../logo.png" height="40"></a>
+        </h1>
+
+        <ul id="menu">
+            <li class="pull-left"><a href="../notice/index.html">NOTICE</a></li>
+            <li class="pull-left"><a href="../members/index.html">MEMBERS</a></li>
+            <li class="pull-left"><a href="../research/index.html">RESEARCH</a></li>
+            <li class="pull-left"><a href="../publications/index.html">PUBLICATIONS</a></li>
+            <li class="pull-left"><a href="../courses/index.html">COURSES</a></li>
+            <li class="pull-left"><a href="../gallery/index.html">GALLERY</a></li>
+        </ul>
+
+        <div class="info_user">
+            <div class="profile">
+                <a href="#" class="login">contact</a>
+                <a href="#" class="login">login</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<main role="main">
+    <div class="container">
+        <div class="contents">
+            <h1>GALLERY</h1>
+            <div id="tab">
+                <div class="first-tab" data-type="all">All</div>
+                <div class="deactive" data-type="social">Social Activity</div>
+                <div class="deactive" data-type="conference">Conference</div>
+                <div class="deactive last-tab" data-type="etc">Etc</div>
+            </div>
+            <div id="hl"></div>
+            <div id="all" class="back">
+                <div class="tile pull-left">
+                    <a href="https://selab.hanyang.ac.kr/gallery/images/KakaoTalk_20140513_124247945.jpg"
+                       data-lightbox="all" title="절대 누구라고는 말 안했음.... Who are you?">
+                        <img src="https://selab.hanyang.ac.kr/gallery/images/KakaoTalk_20140513_124247945.jpg"/>
+                    </a>
+                    <div class="title">
+                        <p>절대 누구라고는 말 안했음.... Who are you?</p>
+                    </div>
+                </div>
+                <div class="tile pull-left">
+                    <a href="https://selab.hanyang.ac.kr/gallery/images/IMG_4923.JPG" data-lightbox="all"
+                       title="KCSE 2014 presentation">
+                        <img src="https://selab.hanyang.ac.kr/gallery/images/IMG_4923.JPG"/>
+                    </a>
+                    <div class="title">
+                        <p>KCSE 2014 presentation</p>
+                    </div>
+                </div>
+                <div class="tile pull-left">
+                    <a href="https://selab.hanyang.ac.kr/gallery/images/IMG_4772.JPG" data-lightbox="all"
+                       title="KCSE 2014 presentation">
+                        <img src="https://selab.hanyang.ac.kr/gallery/images/IMG_4772.JPG"/>
+                    </a>
+                    <div class="title">
+                        <p>KCSE 2014 presentation</p>
+                    </div>
+                </div>
+                <div class="tile pull-left">
+                    <a href="https://selab.hanyang.ac.kr/gallery/images/IMG_7602.JPG" data-lightbox="all" title="호수공원">
+                        <img src="https://selab.hanyang.ac.kr/gallery/images/IMG_7602.JPG"/>
+                    </a>
+                    <div class="title">
+                        <p>호수공원</p>
+                    </div>
+                </div>
+                <div class="tile pull-left">
+                    <a href="https://selab.hanyang.ac.kr/gallery/images/IMG_7584.JPG" data-lightbox="all"
+                       title="Plz, arrest him!!!! Crazy guy on the Lio">
+                        <img src="https://selab.hanyang.ac.kr/gallery/images/IMG_7584.JPG"/>
+                    </a>
+                    <div class="title">
+                        <p>Plz, arrest him!!!! Crazy guy on the Lio</p>
+                    </div>
+                </div>
+                <div class="tile pull-left">
+                    <a href="https://selab.hanyang.ac.kr/gallery/images/IMG_7586.JPG" data-lightbox="all"
+                       title="All mems In front of Lion Statue!!">
+                        <img src="https://selab.hanyang.ac.kr/gallery/images/IMG_7586.JPG"/>
+                    </a>
+                    <div class="title">
+                        <p>All mems In front of Lion Statue!!</p>
+                    </div>
+                </div>
+                <div class="tile pull-left">
+                    <a href="https://selab.hanyang.ac.kr/gallery/images/KakaoTalk_3f852c70fb6f4ca3.jpg"
+                       data-lightbox="all" title="Happy Birthday!! :-)">
+                        <img src="https://selab.hanyang.ac.kr/gallery/images/KakaoTalk_3f852c70fb6f4ca3.jpg"/>
+                    </a>
+                    <div class="title">
+                        <p>Happy Birthday!! :-)</p>
+                    </div>
+                </div>
+                <div class="tile pull-left">
+                    <a href="https://selab.hanyang.ac.kr/gallery/images/IMG_1109.JPG" data-lightbox="all"
+                       title="KCSE 2014 Pheonix Park">
+                        <img src="https://selab.hanyang.ac.kr/gallery/images/IMG_1109.JPG"/>
+                    </a>
+                    <div class="title">
+                        <p>KCSE 2014 Pheonix Park</p>
+                    </div>
+                </div>
+                <div class="tile pull-left">
+                    <a href="https://selab.hanyang.ac.kr/gallery/images/IMG_1164.JPG" data-lightbox="all"
+                       title="Dinner February 2014">
+                        <img src="https://selab.hanyang.ac.kr/gallery/images/IMG_1164.JPG"/>
+                    </a>
+                    <div class="title">
+                        <p>Dinner February 2014</p>
+                    </div>
+                </div>
+                <div class="tile pull-left">
+                    <a href="https://selab.hanyang.ac.kr/gallery/images/20130628_121943.jpg" data-lightbox="all"
+                       title="숨막히는 뒤태~~~ 우후훗">
+                        <img src="https://selab.hanyang.ac.kr/gallery/images/20130628_121943.jpg"/>
+                    </a>
+                    <div class="title">
+                        <p>숨막히는 뒤태~~~ 우후훗</p>
+                    </div>
+                </div>
+                <div id="page-bar">
+                    <a href="index.php-page=1.html" class='page'>1</a>
+                    <a href="index.php-page=2.html" class='page'>2</a>
+                    <a href="index.php-page=3.html" class='page'>3</a>
+                    <a href="index.php-page=4.html" class='selected-page page'>4</a>
+                    <a href="index.php-page=5.html" class='page'>5</a>
+                </div>
+            </div>
+            <div id="social" class="hidden back">
+                <div id="page-bar">
+                    <a href="index.php-page=1.html" class='page'>1</a>
+                    <a href="index.php-page=2.html" class='page'>2</a>
+                    <a href="index.php-page=3.html" class='page'>3</a>
+                </div>
+            </div>
+            <div id="conference" class="hidden back">
+                <div id="page-bar">
+                    <a href="index.php-page=1.html" class='page'>1</a>
+                    <a href="index.php-page=2.html" class='page'>2</a>
+                </div>
+            </div>
+            <div id="etc" class="hidden back">
+                <div id="page-bar">
+                    <a href="index.php-page=1.html" class='page'>1</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer role="contentinfo">
+    <div class="container">
+        <p>COPYRIGHT 2014 SELAB, ALL RIGHTS RESERVED. COMPUTER SCIENECE AND ENGINEERING, HANYANG UNIV. LOCATION:
+            ENGINEERING BUILDING #3, ROOM 421. T +82-31-400-4754</p>
+    </div>
+</footer>
+</body>
+</html>
