@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Software Engineering Lab - Contact</title>
+	<!--[if IE]>
+	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="../common/styles/reset-1.6.1.css" type="text/css" />
+	<link rel="stylesheet" href="../common/styles/jquery-ui.css" type="text/css" />
+	<link rel="stylesheet" href="../common/styles/font-awesome-4.0.3/css/font-awesome.min.css" type="text/css" />
+	<link rel="stylesheet" href="../common/styles/common.css" type="text/css" />
+	<link rel="shortcut icon" href="../common/images/SelabFavicon.png" type="image/png">
+			<link rel="stylesheet" href="styles/contact.css" type="text/css" />
+
+	<script type="text/javascript" src="../common/scripts/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="../common/scripts/jquery-ui.js"></script>
+	<script type="text/javascript" src="../common/scripts/buffered-keyup.js"></script>
+	<script type="text/javascript" src="../common/scripts/common.js"></script>
+			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAolnOVNDT1Ibd1ImXPOYV2xQiThtQf5ok&amp;sensor=false"></script>
+				<script type="text/javascript" src="scripts/contact.js"></script>
+
+</head>
+
+<body>
+	<div class="navbar">
+		<div class="innernavbar">
+			<h1 class="webapplogo">
+				<a herf=#><img src="logo.png" witdh="36"height="40"></a>
+			</h1>
+
+			<div class="panel bw">
+			  <button onclick="location.href='notice/index.html' ">NOTICE</button>
+			  <button onclick="location.href='members/index.html' ">MEMBERS</button>
+			  <button onclick="location.href='research/index.html' ">RESEARCH</button>
+			  <button onclick="location.href='notice/index.html' ">PUBLICATIONS</button>
+			  <button onclick="location.href='courses/index.html' ">COURSES</button>
+			  <button onclick="location.href='gallery/index.html' ">GALLERY</button>
+			  <button onclick="location.href='board/index.php' ">BOARD</button>
+			</div>
+
+			<div class="info_user">
+				<div class="profile">
+					<a href="#" class="login">contact</a>
+					<a href="#" class="login">login</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<main role="main">
+		<div class="container">
+			<div class="contents">
+				<h1>CONTACT</h1>
+<div class="wrap">
+	<h2>Address</h2>
+	<div id="map"></div>
+	<ul>
+		<li>
+			<p>Engineering Building #3, Room 421</p>
+			<p class="bold">HANYANG UNIVERSITY ERICA CAMPUS</p>
+			<p>55, Hanyangdaehak-ro, Sangnok-gu, Ansan-si, Gyeonggi-do</p>
+		</li>
+		<li>경기도 안산시 상록구 한양대학로 55 제3공학관 421</li>
+		<li>+82-31-400-4754</li>
+		<li>email <i id="mail" class="fa fa-envelope-o"></i></li>
+		<li><span id="madeby">만든이</span></li>
+	</ul>
+</div>
+<div id="mail-wrap" class="hidden">
+	<div class="subwrap">
+		<p id="title-name">Mail</p>
+	</div>
+	<form name="mailform" action="index.html" method="post">
+		<div class="subwrap">
+			<label class="subname">From</label>
+			<input id="from" name="from" type="text" />
+		</div>
+		<div class="subwrap">
+			<label class="subname">Subject</label>
+			<input id="subject" name="subject" type="text" />
+		</div>
+		<div class="subwrap">
+			<label class="subname">Message</label>
+			<textarea id="message" name="message" rows="4"></textarea>
+		</div>
+		<div class="subwrap">
+			<button id="cancel" class="pull-right">Cancel</button>
+			<button id="send" class="pull-right">Send Mail</button>
+		</div>
+
+	</form>
+</div>
+			</div>
+		</div>
+	</main>
+
+	<footer role="contentinfo">
+		<div class="container">
+			<p>COPYRIGHT 2014 SELAB, ALL RIGHTS RESERVED. COMPUTER SCIENECE AND ENGINEERING, HANYANG UNIV. LOCATION: ENGINEERING BUILDING #3, ROOM 421. T +82-31-400-4754</p>
+		</div>
+	</footer>
+</body>
+</html>
